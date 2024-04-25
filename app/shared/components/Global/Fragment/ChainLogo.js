@@ -23,6 +23,7 @@ import waxLogo from '../../../../renderer/assets/images/wax.png';
 import libreLogo from '../../../../renderer/assets/images/libre.png'; // libre
 import ayetuLogo from '../../../../renderer/assets/images/ayetu-512px-dark-text.png'; // ayetu
 import ayetuTestnetLogo from '../../../../renderer/assets/images/ayetu-512px-dark-text-testnet.png'; // ayetu testnet
+import koyLogo from '../../../../renderer/assets/images/koy.png'; // koy mainnet and testnet
 
 const logos = {
   b912d19a6abd2b1b05611ae5be473355d64d95aeff0c09bedc8c166cd6468fe4: beosLogo, // mainnet (beos)
@@ -46,7 +47,6 @@ const logos = {
   '4667b205c6838ef70ff7988f6e8257e8be0e1284a2f59699054a018f743b1d11': telosLogo, // mainnet (telos)
   e17615decaecd202a365f4c029f206eee98511979de8a5756317e2469f2289e3: telosLogo, // testnet (telos)
   '8fc6dce7942189f842170de953932b1f66693ad3788f766e777b6f9d22335c02': uxLogo, // mainnet (uxnetwork)
-  '1064487b3cd1a897ce03ae5b6a865651747e2e152090f99c1d19d44e01aea5a4': waxLogo, // mainnet (wax)
   '73647cde120091e0a4b85bced2f3cfdb3041e266cbbe95cee59b73235a1b3b6f': worbliLogo, // mainnet (worbli)
   '1064487b3cd1a897ce03ae5b6a865651747e2e152090f99c1d19d44e01aea5a4': waxLogo, // mainnet (wax)
   f16b1833c747c43682f4386fca9cbb327929334a762755ebec17f6f23c9b8a12: waxLogo,
@@ -54,6 +54,8 @@ const logos = {
   b64646740308df2ee06c6b72f34c0f7fa066d940e831f752db2006fcc2b78dee: libreLogo, // testnet (libre)
   '9b06067cf9f0a293e854cbdbcf4bc0292bbf1137dd01d3d9300f403706444504': ayetuLogo, // mainnet (ayetu)
   '38b20c9055b39035eaee7fdf450ce9b2572024bcc6d4ee8cddd50662a0cdeff1': ayetuTestnetLogo, // testnet (ayetu)
+  adf3860dc671acafa2e4ce7ab4fd90920a487e8e82a36e8b4364aad5129552cd: koyLogo, // mainnet (koy)
+  '181e289803751d4e0fc257fd186edaa6df8169e28631f1bf63fc9287a80cfb5f': koyLogo, // testnet (koy)
 };
 
 export class GlobalFragmentChainLogo extends PureComponent<Props> {
