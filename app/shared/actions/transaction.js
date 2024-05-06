@@ -206,8 +206,7 @@ export function signTransaction(tx, contracts = []) {
         if (tx.transaction.signatures && tx.transaction.signatures.length) {
           // Merge signatures
           modified.transaction.signatures = [
-            ...signed.transaction.signatures,
-            ...tx.transaction.signatures,
+            ...new Set([...signed.transaction.signatures, ...tx.transaction.signatures]),
           ];
         }
         if (modified.broadcast) {
